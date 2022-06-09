@@ -1,0 +1,26 @@
+1. Create a thread-safe wrapper around the cout object. Name it pcout. Necessary,
+so that multiple threads can access pcout and output information to the console.
+Demonstrate how pcout works.
+
+2. Implement a function that returns the i-th prime number (for example, the millionth prime
+number is 15485863). Calculations are implemented in a secondary thread. Display in console
+calculation progress (on the main thread).
+
+3. Simulate the following situation. There are two people (2 streams): the owner and the thief. Master
+brings things home (a function that adds a random number to a vector at intervals of 1
+once per second). At the same time, each thing has its own value. The thief takes things (a function that finds the largest number and removes from the vector with a frequency of 1 time in 0.5
+seconds), each time takes the item with the highest value.
+
+
+
+1. Создайте потокобезопасную оболочку для объекта cout. Назовите ее pcout. Необходимо,
+чтобы несколько потоков могли обращаться к pcout и информация выводилась в консоль.
+Продемонстрируйте работу pcout.
+2. Реализовать функцию, возвращающую i-ое простое число (например, миллионное простое
+число равно 15485863). Вычисления реализовать во вторичном потоке. В консоли отображать
+прогресс вычисления (в основном потоке).
+3. Промоделировать следующую ситуацию. Есть два человека (2 потока): хозяин и вор. Хозяин
+приносит домой вещи (функция добавляющая случайное число в вектор с периодичностью 1
+раз в секунду). При этом у каждой вещи есть своя ценность. Вор забирает вещи (функция,
+которая находит наибольшее число и удаляет из вектора с периодичностью 1 раз в 0.5
+секунд), каждый раз забирает вещь с наибольшей ценностью.
